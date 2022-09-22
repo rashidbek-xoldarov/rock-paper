@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url("../fonts/BarlowSemiCondensed-Regular.woff2") format("woff2"),
+    url("../fonts/BarlowSemiCondensed-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url("../fonts/BarlowSemiCondensed-SemiBold.woff2") format("woff2"),
+    url("../fonts/BarlowSemiCondensed-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

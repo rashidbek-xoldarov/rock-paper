@@ -20,7 +20,7 @@ body {
   font-weight: var(--main-font-weight);
   line-height: var(--main-line-height);
   color: var(--main-text-color);
-  background-color: var(--main-bg-color);
+  background: var(--main-bg-color);
   overflow-x: hidden;
 }
 
@@ -33,4 +33,3 @@ img {
 .site-main {
   flex-grow: 1;
 }
-

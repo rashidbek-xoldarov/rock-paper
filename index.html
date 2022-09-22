@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Document</title>
   </head>
   <body>
@@ -17,7 +18,32 @@
     <main class="site-main">
       <!-- Hero -->
       <section class="hero">
-        <div class="container"></div>
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__top">
+              <img
+                class="hero__img"
+                src="./images/title.svg"
+                alt="hero image"
+                width="155"
+                height="92"
+              />
+              <div class="hero__score-wrapper">
+                <h2 class="hero__score-title">SCORE</h2>
+                <span class="hero__score-num">12</span>
+              </div>
+            </div>
+            <div class="hero__btn-wrapper">
+              <button class="hero__btn btn-paper" data-type="paper"></button>
+              <button class="hero__btn btn-screw" data-type="screw"></button>
+              <button class="hero__btn btn-rock" data-type="rock"></button>
+            </div>
+          </div>
+          <div class="hero__result">
+            <h2 class="hero__result-title"></h2>
+            <button class="hero__result-btn">PLAY AGAIN</button>
+          </div>
+        </div>
       </section>
       <!-- /Hero -->
     </main>
